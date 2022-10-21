@@ -4,3 +4,9 @@ class Settings(): #Classe que armazena as configurações do jogo.
         self.screen_height = 800 #Altura da janela
         self.bg_color = (230, 230, 230) #Cor da janela
         self.ship_speed_factor = 1.5
+        
+        self.bullet_width = 3
+        self.bullet_height = 11
+        self.bullet_color = (255, 0, 0)
+        self.bullet_speed_factor = 1
+        self.bullets_allowed = 3
